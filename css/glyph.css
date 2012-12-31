@@ -1,3 +1,16 @@
+/* This font-face and glyph data are licensed under CC-BY-SA 3.0
+ * http://creativecommons.org/licenses/by-sa/3.0/
+ *
+ * Font itself licensed under SIL Open Font License
+ * http://scripts.sil.org/OFL
+ *
+ * Based on original Entypo font-face and Glyphs by the very talented 
+ * Daniel Bruce (http://danielbruce.se/)
+ *
+ * CSS code for font face and glyphs encoded by Travis McArthur
+ * (http://sectionfive.net/)
+ *
+ */
 @font-face {
   font-family: 'EntypoRegular';
   src: url('../assets/entypo.eot');
@@ -22,7 +35,7 @@
   content: "📞";
   font-family: "EntypoRegular";
 }
-.glyph-device:after {
+.glyph-mobile:after {
   content: "📱";
   font-family: "EntypoRegular";
 }
@@ -30,15 +43,15 @@
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-signs:after {
+.glyph-address:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-envelope:after {
+.glyph-mail:after {
   content: "✉";
   font-family: "EntypoRegular";
 }
-.glyph-airplane:after {
+.glyph-paper-plane:after {
   content: "🔿";
   font-family: "EntypoRegular";
 }
@@ -50,7 +63,7 @@
   content: "✒";
   font-family: "EntypoRegular";
 }
-.glyph-paperclip:after {
+.glyph-attach:after {
   content: "📎";
   font-family: "EntypoRegular";
 }
@@ -58,39 +71,39 @@
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-back-arrow:after {
+.glyph-reply:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-double-back-arrow:after {
+.glyph-reply-all:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-forward-arrow:after {
+.glyph-forward:after {
   content: "➦";
   font-family: "EntypoRegular";
 }
-.glyph-person:after {
+.glyph-user:after {
   content: "👤";
   font-family: "EntypoRegular";
 }
-.glyph-people:after {
+.glyph-users:after {
   content: "👥";
   font-family: "EntypoRegular";
 }
-.glyph-add-person:after {
+.glyph-add-user:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-id:after {
+.glyph-vcard:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-forward:after {
+.glyph-export:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-map-flag:after {
+.glyph-location:after {
   content: "";
   font-family: "EntypoRegular";
 }
@@ -102,19 +115,19 @@
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-locate:after {
+.glyph-direction:after {
   content: "➢";
   font-family: "EntypoRegular";
 }
-.glyph-target:after {
+.glyph-hair-cross:after {
   content: "🎯";
   font-family: "EntypoRegular";
 }
-.glyph-nodes:after {
+.glyph-share:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-encircled-node:after {
+.glyph-shareable:after {
   content: "";
   font-family: "EntypoRegular";
 }
@@ -122,7 +135,7 @@
   content: "♥";
   font-family: "EntypoRegular";
 }
-.glyph-empty-heart:after {
+.glyph-heart-empty:after {
   content: "♡";
   font-family: "EntypoRegular";
 }
@@ -130,7 +143,7 @@
   content: "★";
   font-family: "EntypoRegular";
 }
-.glyph-empty-star:after {
+.glyph-star-empty:after {
   content: "☆";
   font-family: "EntypoRegular";
 }
@@ -142,15 +155,15 @@
   content: "👎";
   font-family: "EntypoRegular";
 }
-.glyph-thought-bubbles:after {
+.glyph-chat:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-thought-bubble:after {
+.glyph-comment:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-quotes:after {
+.glyph-quote:after {
   content: "❞";
   font-family: "EntypoRegular";
 }
@@ -178,7 +191,7 @@
   content: "🔔";
   font-family: "EntypoRegular";
 }
-.glyph-chain:after {
+.glyph-link:after {
   content: "🔗";
   font-family: "EntypoRegular";
 }
@@ -186,7 +199,7 @@
   content: "⚑";
   font-family: "EntypoRegular";
 }
-.glyph-gear:after {
+.glyph-cog:after {
   content: "⚙";
   font-family: "EntypoRegular";
 }
@@ -214,7 +227,7 @@
   content: "☽";
   font-family: "EntypoRegular";
 }
-.glyph-paints:after {
+.glyph-palette:after {
   content: "🎨";
   font-family: "EntypoRegular";
 }
@@ -226,15 +239,15 @@
   content: "♪";
   font-family: "EntypoRegular";
 }
-.glyph-notes:after {
+.glyph-beamed-note:after {
   content: "♫";
   font-family: "EntypoRegular";
 }
-.glyph-warning:after {
+.glyph-new:after {
   content: "💥";
   font-family: "EntypoRegular";
 }
-.glyph-graduation-hat:after {
+.glyph-graduation-cap:after {
   content: "🎓";
   font-family: "EntypoRegular";
 }
@@ -242,7 +255,7 @@
   content: "📕";
   font-family: "EntypoRegular";
 }
-.glyph-paper:after {
+.glyph-newspaper:after {
   content: "📰";
   font-family: "EntypoRegular";
 }
@@ -250,11 +263,11 @@
   content: "👜";
   font-family: "EntypoRegular";
 }
-.glyph-plane:after {
+.glyph-airplane:after {
   content: "✈";
   font-family: "EntypoRegular";
 }
-.glyph-lifesaver:after {
+.glyph-lifeuoy:after {
   content: "";
   font-family: "EntypoRegular";
 }
@@ -266,7 +279,7 @@
   content: "🕔";
   font-family: "EntypoRegular";
 }
-.glyph-microphone:after {
+.glyph-mic:after {
   content: "🎤";
   font-family: "EntypoRegular";
 }
@@ -274,27 +287,27 @@
   content: "📅";
   font-family: "EntypoRegular";
 }
-.glyph-lightning:after {
+.glyph-flash:after {
   content: "⚡";
   font-family: "EntypoRegular";
 }
-.glyph-lightning-cloud:after {
+.glyph-thunder-cloud:after {
   content: "⛈";
   font-family: "EntypoRegular";
 }
-.glyph-drop:after {
+.glyph-droplet:after {
   content: "💧";
   font-family: "EntypoRegular";
 }
-.glyph-disc:after {
+.glyph-cd:after {
   content: "💿";
   font-family: "EntypoRegular";
 }
-.glyph-toolbox:after {
+.glyph-briefcase:after {
   content: "💼";
   font-family: "EntypoRegular";
 }
-.glyph-waves:after {
+.glyph-air:after {
   content: "💨";
   font-family: "EntypoRegular";
 }
@@ -302,11 +315,11 @@
   content: "⏳";
   font-family: "EntypoRegular";
 }
-.glyph-speedometer:after {
+.glyph-gauge:after {
   content: "🛇";
   font-family: "EntypoRegular";
 }
-.glyph-letters:after {
+.glyph-language:after {
   content: "🎔";
   font-family: "EntypoRegular";
 }
@@ -330,11 +343,11 @@
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-harddisk:after {
+.glyph-drive:after {
   content: "📽";
   font-family: "EntypoRegular";
 }
-.glyph-trash-bin:after {
+.glyph-cup:after {
   content: "☕";
   font-family: "EntypoRegular";
 }
@@ -342,15 +355,15 @@
   content: "🚀";
   font-family: "EntypoRegular";
 }
-.glyph-paintbrush:after {
+.glyph-brush:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-briefcase:after {
+.glyph-suitcase:after {
   content: "🛆";
   font-family: "EntypoRegular";
 }
-.glyph-cone:after {
+.glyph-traffic-cone:after {
   content: "🛈";
   font-family: "EntypoRegular";
 }
@@ -362,47 +375,47 @@
   content: "⌨";
   font-family: "EntypoRegular";
 }
-.glyph-window:after {
+.glyph-browser:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-window-arrow:after {
+.glyph-publish:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-full-progress:after {
+.glyph-progress-3:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-two-thirds-progress:after {
+.glyph-progress-2:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-one-third-progress-:after {
+.glyph-progress-1:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-empty-progress:after {
+.glyph-progress-0:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-small-sun:after {
+.glyph-light-down:after {
   content: "🔅";
   font-family: "EntypoRegular";
 }
-.glyph-large-sun:after {
+.glyph-light-up:after {
   content: "🔆";
   font-family: "EntypoRegular";
 }
-.glyph-half-sun:after {
+.glyph-adjust:after {
   content: "◑";
   font-family: "EntypoRegular";
 }
-.glyph-square-brackets:after {
+.glyph-code:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-tv:after {
+.glyph-monitor:after {
   content: "💻";
   font-family: "EntypoRegular";
 }
@@ -410,11 +423,11 @@
   content: "∞";
   font-family: "EntypoRegular";
 }
-.glyph-lightbulb:after {
+.glyph-light-bulb:after {
   content: "💡";
   font-family: "EntypoRegular";
 }
-.glyph-creditcard:after {
+.glyph-credit-card:after {
   content: "💳";
   font-family: "EntypoRegular";
 }
@@ -422,7 +435,7 @@
   content: "📸";
   font-family: "EntypoRegular";
 }
-.glyph-tape:after {
+.glyph-voicemail:after {
   content: "✇";
   font-family: "EntypoRegular";
 }
@@ -442,11 +455,11 @@
   content: "🎫";
   font-family: "EntypoRegular";
 }
-.glyph-feed:after {
+.glyph-rss:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-wireless:after {
+.glyph-signal:after {
   content: "📶";
   font-family: "EntypoRegular";
 }
@@ -454,11 +467,11 @@
   content: "📿";
   font-family: "EntypoRegular";
 }
-.glyph-drops:after {
+.glyph-water:after {
   content: "💦";
   font-family: "EntypoRegular";
 }
-.glyph-flag:after {
+.glyph-sweden:after {
   content: "";
   font-family: "EntypoRegular";
 }
@@ -466,15 +479,15 @@
   content: "📈";
   font-family: "EntypoRegular";
 }
-.glyph-pie-graph:after {
+.glyph-pie-chart:after {
   content: "◴";
   font-family: "EntypoRegular";
 }
-.glyph-bar-chart:after {
+.glyph-bar-graph:after {
   content: "📊";
   font-family: "EntypoRegular";
 }
-.glyph-area-chart:after {
+.glyph-area-graph:after {
   content: "🔾";
   font-family: "EntypoRegular";
 }
@@ -482,15 +495,15 @@
   content: "🔒";
   font-family: "EntypoRegular";
 }
-.glyph-unlock:after {
+.glyph-lock-open:after {
   content: "🔓";
   font-family: "EntypoRegular";
 }
-.glyph-out:after {
+.glyph-logout:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-in:after {
+.glyph-login:after {
   content: "";
   font-family: "EntypoRegular";
 }
@@ -498,31 +511,31 @@
   content: "✓";
   font-family: "EntypoRegular";
 }
-.glyph-x:after {
+.glyph-cross:after {
   content: "❌";
   font-family: "EntypoRegular";
 }
-.glyph-minus-box:after {
+.glyph-squared-minus:after {
   content: "⊟";
   font-family: "EntypoRegular";
 }
-.glyph-plus-box:after {
+.glyph-squared-plus:after {
   content: "⊞";
   font-family: "EntypoRegular";
 }
-.glyph-x-box:after {
+.glyph-squared-cross:after {
   content: "❎";
   font-family: "EntypoRegular";
 }
-.glyph-minus-circle:after {
+.glyph-circled-minus:after {
   content: "⊖";
   font-family: "EntypoRegular";
 }
-.glyph-plus-circle:after {
+.glyph-circled-plus:after {
   content: "⊕";
   font-family: "EntypoRegular";
 }
-.glyph-x-circle:after {
+.glyph-circled-cross:after {
   content: "✖";
   font-family: "EntypoRegular";
 }
@@ -534,11 +547,11 @@
   content: "➕";
   font-family: "EntypoRegular";
 }
-.glyph-back-x:after {
+.glyph-erase:after {
   content: "⌫";
   font-family: "EntypoRegular";
 }
-.glyph-delete:after {
+.glyph-block:after {
   content: "🚫";
   font-family: "EntypoRegular";
 }
@@ -546,31 +559,31 @@
   content: "ℹ";
   font-family: "EntypoRegular";
 }
-.glyph-info-circle:after {
+.glyph-circled-info:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-question:after {
+.glyph-help:after {
   content: "❓";
   font-family: "EntypoRegular";
 }
-.glyph-question-circle:after {
+.glyph-circled-help:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-exclamation-triangle:after {
+.glyph-warning:after {
   content: "⚠";
   font-family: "EntypoRegular";
 }
-.glyph-refresh:after {
+.glyph-cycle:after {
   content: "🔄";
   font-family: "EntypoRegular";
 }
-.glyph-clockwise:after {
+.glyph-cw:after {
   content: "⟳";
   font-family: "EntypoRegular";
 }
-.glyph-counter-clockwise:after {
+.glyph-ccw-clockwise:after {
   content: "⟲";
   font-family: "EntypoRegular";
 }
@@ -578,43 +591,43 @@
   content: "🔀";
   font-family: "EntypoRegular";
 }
-.glyph-reverse:after {
+.glyph-back:after {
   content: "🔙";
   font-family: "EntypoRegular";
 }
-.glyph-forward:after {
+.glyph-level-down:after {
   content: "↳";
   font-family: "EntypoRegular";
 }
-.glyph-square-circle:after {
+.glyph-retweet:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-repeat:after {
+.glyph-loop:after {
   content: "🔁";
   font-family: "EntypoRegular";
 }
-.glyph-repeat-clock:after {
+.glyph-back-in-time:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-back-arrow:after {
+.glyph-level-up:after {
   content: "↰";
   font-family: "EntypoRegular";
 }
-.glyph-opposing-arrows:after {
+.glyph-switch:after {
   content: "⇆";
   font-family: "EntypoRegular";
 }
-.glyph-list-bulletted:after {
+.glyph-numbered-list:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-list-add:after {
+.glyph-add-to-list:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-squares:after {
+.glyph-layout:after {
   content: "⚏";
   font-family: "EntypoRegular";
 }
@@ -622,31 +635,31 @@
   content: "☰";
   font-family: "EntypoRegular";
 }
-.glyph-white-list:after {
+.glyph-text-doc:after {
   content: "📄";
   font-family: "EntypoRegular";
 }
-.glyph-black-list:after {
+.glyph-text-doc-inverted:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-empty-list:after {
+.glyph-doc:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-multiple-pages:after {
+.glyph-docs:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-screen:after {
+.glyph-landscape-doc:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-pictures:after {
+.glyph-picture:after {
   content: "🌄";
   font-family: "EntypoRegular";
 }
-.glyph-play-movie:after {
+.glyph-video:after {
   content: "🎬";
   font-family: "EntypoRegular";
 }
@@ -658,27 +671,27 @@
   content: "📁";
   font-family: "EntypoRegular";
 }
-.glyph-file-cabinet:after {
+.glyph-archive:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-trash-can:after {
+.glyph-trash:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-out-of-box:after {
+.glyph-upload:after {
   content: "📤";
   font-family: "EntypoRegular";
 }
-.glyph-in-to-box:after {
+.glyph-download:after {
   content: "📥";
   font-family: "EntypoRegular";
 }
-.glyph-diskette:after {
+.glyph-save:after {
   content: "💾";
   font-family: "EntypoRegular";
 }
-.glyph-in-drive:after {
+.glyph-install:after {
   content: "";
   font-family: "EntypoRegular";
 }
@@ -686,7 +699,7 @@
   content: "☁";
   font-family: "EntypoRegular";
 }
-.glyph-cloud-in:after {
+.glyph-upload-cloud:after {
   content: "";
   font-family: "EntypoRegular";
 }
@@ -698,7 +711,7 @@
   content: "📑";
   font-family: "EntypoRegular";
 }
-.glyph-pamphlet:after {
+.glyph-open-book:after {
   content: "📖";
   font-family: "EntypoRegular";
 }
@@ -718,35 +731,35 @@
   content: "■";
   font-family: "EntypoRegular";
 }
-.glyph-fastforward:after {
+.glyph-ff:after {
   content: "⏩";
   font-family: "EntypoRegular";
 }
-.glyph-rewind:after {
+.glyph-fb:after {
   content: "⏪";
   font-family: "EntypoRegular";
 }
-.glyph-previous:after {
+.glyph-to-start:after {
   content: "⏮";
   font-family: "EntypoRegular";
 }
-.glyph-next:after {
+.glyph-to-end:after {
   content: "⏭";
   font-family: "EntypoRegular";
 }
-.glyph-expand:after {
+.glyph-resize-full:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-contract:after {
+.glyph-resize-small:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-wedge:after {
+.glyph-volume:after {
   content: "⏷";
   font-family: "EntypoRegular";
 }
-.glyph-volume:after {
+.glyph-sound:after {
   content: "🔊";
   font-family: "EntypoRegular";
 }
@@ -754,155 +767,155 @@
   content: "🔇";
   font-family: "EntypoRegular";
 }
-.glyph-list-graph:after {
+.glyph-flow-cascade:after {
   content: "🕨";
   font-family: "EntypoRegular";
 }
-.glyph-fork:after {
+.glyph-flow-branch:after {
   content: "🕩";
   font-family: "EntypoRegular";
 }
-.glyph-tree:after {
+.glyph-flow-tree:after {
   content: "🕪";
   font-family: "EntypoRegular";
 }
-.glyph-one-set:after {
+.glyph-flow-line:after {
   content: "🕫";
   font-family: "EntypoRegular";
 }
-.glyph-two-set:after {
+.glyph-flow-parallel:after {
   content: "🕬";
   font-family: "EntypoRegular";
 }
-.glyph-left-arrow:after {
+.glyph-left-bold:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-down-arrow:after {
+.glyph-down-bold:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-up-arrow:after {
+.glyph-up-bold:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-right-arrow:after {
+.glyph-right-bold:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-left-thin-arrow:after {
+.glyph-left:after {
   content: "⬅";
   font-family: "EntypoRegular";
 }
-.glyph-down-thin-arrow:after {
+.glyph-down:after {
   content: "⬇";
   font-family: "EntypoRegular";
 }
-.glyph-up-thin-arrow:after {
+.glyph-up:after {
   content: "⬆";
   font-family: "EntypoRegular";
 }
-.glyph-right-thin-arrow:after {
+.glyph-right:after {
   content: "➡";
   font-family: "EntypoRegular";
 }
-.glyph-left-circle-arrow:after {
+.glyph-circled-left:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-down-circle-arrow:after {
+.glyph-circled-down:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-up-circle-arrow:after {
+.glyph-circled-up:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-right-circle-arrow:after {
+.glyph-circled-right:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-left-small-arrow:after {
+.glyph-triangle-left:after {
   content: "◂";
   font-family: "EntypoRegular";
 }
-.glyph-down-small-arrow:after {
+.glyph-triangle-down:after {
   content: "▾";
   font-family: "EntypoRegular";
 }
-.glyph-up-small-arrow:after {
+.glyph-triangle-up:after {
   content: "▴";
   font-family: "EntypoRegular";
 }
-.glyph-right-small-arrow:after {
+.glyph-triangle-right:after {
   content: "▸";
   font-family: "EntypoRegular";
 }
-.glyph-left-square-arrow:after {
+.glyph-chevron-left:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-down-square-arrow:after {
+.glyph-chevron-down:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-up-square-arrow:after {
+.glyph-chevron-up:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-right-square-arrow:after {
+.glyph-chevron-right:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-left-square-thin-arrow:after {
+.glyph-chevron-small-left:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-down-square-thin-arrow:after {
+.glyph-chevron-small-down:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-up-square-thin-arrow:after {
+.glyph-chevron-small-up:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-right-square-thin-arrow:after {
+.glyph-chevron-small-right:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-left-square-fat-arrow:after {
+.glyph-chevron-thin-left:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-down-square-fat-arrow:after {
+.glyph-chevron-thin-down:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-up-square-fat-arrow:after {
+.glyph-chevron-thin-up:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-right-square-fat-arrow:after {
+.glyph-chevron-thin-right:after {
   content: "";
   font-family: "EntypoRegular";
 }
-.glyph-left-long-arrow:after {
+.glyph-left-thin:after {
   content: "←";
   font-family: "EntypoRegular";
 }
-.glyph-down-long-arrow:after {
+.glyph-down-thin:after {
   content: "↓";
   font-family: "EntypoRegular";
 }
-.glyph-up-long-arrow:after {
+.glyph-up-thin:after {
   content: "↑";
   font-family: "EntypoRegular";
 }
-.glyph-right-long-arrow:after {
+.glyph-right-thin:after {
   content: "→";
   font-family: "EntypoRegular";
 }
-.glyph-up-down-arrows:after {
+.glyph-arrow-combo:after {
   content: "";
   font-family: "EntypoRegular";
 }
@@ -914,7 +927,7 @@
   content: "⏵";
   font-family: "EntypoRegular";
 }
-.glyph-one-dot:after {
+.glyph-dot:after {
   content: "⏴";
   font-family: "EntypoRegular";
 }
@@ -926,7 +939,7 @@
   content: "🕆";
   font-family: "EntypoRegular";
 }
-.glyph-cc-nc-dollar:after {
+.glyph-cc-nc:after {
   content: "🕇";
   font-family: "EntypoRegular";
 }
@@ -934,7 +947,7 @@
   content: "🕈";
   font-family: "EntypoRegular";
 }
-.glyph-cc-nc-yen:after {
+.glyph-cc-nc-jp:after {
   content: "🕉";
   font-family: "EntypoRegular";
 }
@@ -942,11 +955,11 @@
   content: "🕊";
   font-family: "EntypoRegular";
 }
-.glyph-cc-equal:after {
+.glyph-cc-nd:after {
   content: "🕋";
   font-family: "EntypoRegular";
 }
-.glyph-cc-copy:after {
+.glyph-cc-pd:after {
   content: "🕌";
   font-family: "EntypoRegular";
 }
@@ -966,7 +979,7 @@
   content: "🗹";
   font-family: "EntypoRegular";
 }
-.glyph-black-box:after {
+.glyph-db-shape:after {
   content: "🗺";
   font-family: "EntypoRegular";
 }
