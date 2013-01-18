@@ -1,118 +1,111 @@
 @pageWidth : 1024 px;
 @numberColumns : 12;
-@spacerWidth: 20px;
+@spacerWidth: 10px;
 
 .row
 {
-	float: left;
-	clear: both;
-	width: 100%;
+	width: 1024;
 	margin: 0 auto;
+}
+
+
+
+.column
+{
+	float: right;
+	overflow: hidden;
 }
 
 .column
 {
-	margin-right: @spacer;
+	margin-right: @spacerWidth;
+	margin-left: @spacerWidth;
 	float: left;
-	clear: none;
-	
-	&:last-child
-	{
-		margin-right: 0px;
-	}
-	
-	.right
+	&.right
 	{
 		float: right;
-		clear: none;
-	}
-	
-	.center
-	{
-		float: left;
-		margin: 0 auto;
 	}
 }
 
 .one-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns);
+	width: 67px;
 }
 
 .two-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*2;
+	width: 154px;
 	
 }
 
 .three-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*3;
+	width: 241px;
 	
 }
 
 .four-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*4;
+	width: 328px;
 	
 }
 
 .five-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*5;
+	width: 415px;
 	
 }
 
 .six-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*6;
+	width: 502px;
 	
 }
 
 .seven-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*7;
+	width: 589px;
 	
 }
 .eight-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*8;
+	width: 676px;
 	
 }
 
 .nine-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*9;
+	width: 763px;
 	
 }
 
 .ten-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*10;
+	width: 850px;
 	
 }
 
 .eleven-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*11;
+	width: 937px;
 	
 }
 
 .twelve-column
 {
 	.column;
-	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*12;
+	width: 1024px;
 	
 }
 
