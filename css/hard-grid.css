@@ -1,0 +1,137 @@
+.row {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+}
+.column {
+  float: right;
+}
+.column {
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.column.right {
+  float: right;
+}
+.one-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 67px;
+}
+.one-column.right {
+  float: right;
+}
+.two-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 154px;
+}
+.two-column.right {
+  float: right;
+}
+.three-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 241px;
+}
+.three-column.right {
+  float: right;
+}
+.four-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 328px;
+}
+.four-column.right {
+  float: right;
+}
+.five-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 415px;
+}
+.five-column.right {
+  float: right;
+}
+.six-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 502px;
+}
+.six-column.right {
+  float: right;
+}
+.seven-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 589px;
+}
+.seven-column.right {
+  float: right;
+}
+.eight-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 676px;
+}
+.eight-column.right {
+  float: right;
+}
+.nine-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 763px;
+}
+.nine-column.right {
+  float: right;
+}
+.ten-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 850px;
+}
+.ten-column.right {
+  float: right;
+}
+.eleven-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 937px;
+}
+.eleven-column.right {
+  float: right;
+}
+.twelve-column {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 1024px;
+}
+.twelve-column.right {
+  float: right;
+}

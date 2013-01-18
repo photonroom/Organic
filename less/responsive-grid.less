@@ -1,0 +1,118 @@
+@pageWidth : 1024 px;
+@numberColumns : 12;
+@spacerWidth: 20px;
+
+.row
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.column
+{
+	margin-right: @spacer;
+	float: left;
+	clear: none;
+	
+	&:last-child
+	{
+		margin-right: 0px;
+	}
+	
+	.right
+	{
+		float: right;
+		clear: none;
+	}
+	
+	.center
+	{
+		float: left;
+		margin: 0 auto;
+	}
+}
+
+.one-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns);
+}
+
+.two-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*2;
+	
+}
+
+.three-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*3;
+	
+}
+
+.four-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*4;
+	
+}
+
+.five-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*5;
+	
+}
+
+.six-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*6;
+	
+}
+
+.seven-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*7;
+	
+}
+.eight-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*8;
+	
+}
+
+.nine-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*9;
+	
+}
+
+.ten-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*10;
+	
+}
+
+.eleven-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*11;
+	
+}
+
+.twelve-column
+{
+	.column;
+	width: ((@pageWidth - ((@numberColumns-1)*@spacerWidth))/@numberColumns)*12;
+	
+}
+
